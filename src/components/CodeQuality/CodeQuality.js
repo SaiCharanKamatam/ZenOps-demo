@@ -24,25 +24,46 @@ const CodeQuality = () => {
                     </div>
                     <div className='cardHolder'>
                         <div>
-                            <img src='./python.png' />
+                           <a href='a.txt'  download={true}>
+                             <img src='./python.png' />
                             <span>Python</span>
+                           </a>
                         </div>
                         <div>
+                           <a href='a.txt'  download={true}>
                             <img src='./java.png' />
                             <span>Java</span>
+                           </a>
+
                         </div><div>
+                           <a href='a.txt'  download={true}>
+
                             <img src='./node.png' />
                             <span>Node Js</span>
+                           </a>
+
                         </div><div>
+                           <a href='a.txt'  download={true}>
+
                             <img src='./flutter.png' />
                             <span>Flutter</span>
+                           </a>
+
                         </div><div>
+                           <a href='a.txt'  download={true}>
+
                             <img src='./react.png' />
                             <span>ReactJS</span>
+                           </a>
+
                         </div>
                         <div>
+                           <a href='a.txt'  download={true}>
+
                             <img src='./angular.png' />
                             <span>Angular</span>
+                           </a>
+
                         </div>
                     </div>
                 </div>
@@ -62,25 +83,45 @@ const CodeQuality = () => {
                     </div>
                     <div className='cardHolder'>
                         <div>
-                            <img src='./python.png' />
+                           <a href='a.txt'  download={true}>
+                             <img src='./python.png' />
                             <span>Python</span>
+                           </a>
                         </div>
                         <div>
+                           <a href='a.txt'  download={true}>
                             <img src='./java.png' />
                             <span>Java</span>
+                           </a>
+
                         </div><div>
+                           <a href='a.txt'  download={true}>
+
                             <img src='./node.png' />
                             <span>Node Js</span>
+                           </a>
+
                         </div><div>
+                           <a href='a.txt'  download={true}>
+
                             <img src='./flutter.png' />
                             <span>Flutter</span>
+                           </a>
+
                         </div><div>
+                           <a href='a.txt'  download={true}>
+
                             <img src='./react.png' />
                             <span>ReactJS</span>
+                           </a>
+
                         </div>
                         <div>
+                           <a href='a.txt'  download={true}>
+
                             <img src='./angular.png' />
                             <span>Angular</span>
+                           </a>
                         </div>
                     </div>
                 </div>
