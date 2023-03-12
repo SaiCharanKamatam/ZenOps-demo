@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     font-family: 'Ubuntu', sans-serif;
-    
+    align-content: center;    
 }
 
 .NavLinks{
@@ -40,7 +40,9 @@
 }
 
 .active{
-    text-decoration: underline;
+    padding-bottom: 4px;
+    border-bottom: 1.9px solid #131415;
+    line-height: 6px;
 }
 
 
