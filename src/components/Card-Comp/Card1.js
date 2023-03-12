@@ -28,8 +28,8 @@ const Card1 = () => {
             maintainAspectRatio : false
           }
         }
-        height={500} 
-        width={300}
+        height={200} 
+        width={200}
         />
      
     </div>

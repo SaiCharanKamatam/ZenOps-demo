@@ -2,6 +2,7 @@ import React from 'react'
 import 'react-circular-progressbar/dist/styles.css';
 import styles from "../Chart/Chart.module.css"
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import { Link } from 'react-router-dom';
 
 const Chart = () => {
   const percentage = 80;
@@ -13,8 +14,9 @@ const Chart = () => {
   return (
     <div className={styles.ContainerLeft}>
       <div className={styles.links}>
-        <span>GitHub</span>
-        <span>Grafana</span>
+        <Link to='//www.google.com'  target={"_blank"}>GitHub</Link>
+        <Link to='//www.google.com'  target={"_blank"}>Grafana</Link>
+
       </div>
     <div className={styles.ChartContainer}>
       <div className={styles.chart1}>

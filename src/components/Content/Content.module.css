@@ -1,7 +1,6 @@
 .ContentConatiner{
     display: flex;
     flex-direction: column;
-    width: 46%;
     padding-left: 15px;
     padding-top: 6px;
     height: 260px;
@@ -11,8 +10,12 @@
 }
 
 .title{
-    font-size: large;
-    font-weight: bold;
+    font-size: 0.9rem;
+    /* font-weight: bold; */
+    display: flex;
+    align-items: center;
+    align-content: center;
+   
 }
 
 .details1{
@@ -50,4 +53,17 @@
     font-weight: 500;
     width: 33px;
     text-align: center;
+}
+
+.arrow{
+    font-size: 26px;
+    margin: 0px 20px;
+    margin-bottom: 6px;
+}
+
+.bold {
+    font-size: 1.5rem;
+    margin-top: 3px;
+    font-weight: 600;
+    font-family: "Ubuntu";
 }
