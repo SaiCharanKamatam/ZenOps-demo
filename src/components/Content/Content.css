@@ -1,0 +1,53 @@
+.ContentConatiner{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    padding-left: 15px;
+    padding-top: 6px;
+    height: 260px;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.title{
+    font-size: large;
+    font-weight: bold;
+}
+
+.details1{
+    display: flex;
+    width: 160px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.details2{
+    display: flex;
+    width: 160px;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.detailsContainer{
+    display: flex;
+    height: 120px;
+    font-size: 14px;
+}
+
+.flex_space{
+    display: flex;
+    width: 117px;
+    justify-content: space-between;
+}
+
+.bg_green{
+    background-color: rgba(111, 167, 0) ;
+    padding: 3px;
+    border-radius: 3px;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    width: 33px;
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+.Container{
+    border: 1px solid rgb(196, 192, 192);
+    width: 46%;
+    height: 250px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    margin: 20px 10px;
+}
+
+.card{
+    height: 210px;
+}
