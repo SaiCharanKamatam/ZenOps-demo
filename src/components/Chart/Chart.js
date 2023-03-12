@@ -1,6 +1,6 @@
 import React from 'react'
 import 'react-circular-progressbar/dist/styles.css';
-import "../Chart/Chart.css"
+import styles from "../Chart/Chart.module.css"
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 
 const Chart = () => {
@@ -11,14 +11,14 @@ const Chart = () => {
   }
 
   return (
-    <div className='ContainerLeft'>
-      <div className='links'>
+    <div className={styles.ContainerLeft}>
+      <div className={styles.links}>
         <span>GitHub</span>
         <span>Grafana</span>
       </div>
-    <div className='ChartContainer'>
-      <div className='chart1'>
-      <span className='a'>CPU Busy</span>
+    <div className={styles.ChartContainer}>
+      <div className={styles.chart1}>
+      <span className={styles.a}>CPU Busy</span>
         <CircularProgressbar
           value={percentage}
           text={`${percentage}%`}
@@ -34,8 +34,8 @@ const Chart = () => {
           })}
         />
       </div>
-      <div className='chart1'>
-        <span className='a'>RAM Used</span>
+      <div className={styles.chart1}>
+        <span className={styles.a}>RAM Used</span>
         <CircularProgressbar
           value={percentage-41}
           text={`${percentage-41}%`}
@@ -51,8 +51,8 @@ const Chart = () => {
           })}
         />
       </div>
-      <div className='chart1'>
-      <span className='a'>Root FS Used</span>
+      <div className={styles.chart1}>
+      <span className={styles.a}>Root FS Used</span>
         <CircularProgressbar
           value={10}
           text={`${"NaN"}`}

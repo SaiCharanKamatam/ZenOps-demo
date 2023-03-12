@@ -2,12 +2,13 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 86vh;
+   height: 85vh;
    width: 100%;
 }
-.c{
+.box1{
     background: url("bg1.png") no-repeat center;
     background-size: cover;
+    height: 100vh;
 }
 
 .Enhance{

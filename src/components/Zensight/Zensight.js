@@ -1,22 +1,23 @@
 import React from 'react'
-import "./Zensight.css"
+import styles from "./Zensight.module.css"
 import Header from '../Header/Header'
+
 const Zensight = () => {
     return (
         <div>
             <Header />
-            <div className='EntireContainer2' >
-                <div className='CodeContainer2'>
-                    <div className='svgHolder2'>
+            <div className={styles.EntireContainer2} >
+                <div className={styles.CodeContainer2}>
+                    <div className={styles.svgHolder2}>
                         <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' />
                     </div>
-                    <div className='detailsHolder2'>
-                        <div className='monitoring' >Get Ahead With Automated Monitoring and Alerting</div>
-                        <div className='metric' >  Monitor your applications in real time with Prometheus and Grafana for keeping an eye on performance metrics and take immediate action </div>
+                    <div className={styles.detailsHolder2}>
+                        <div className={styles.monitoring} >Get Ahead With Automated Monitoring and Alerting</div>
+                        <div className={styles.metric} >  Monitor your applications in real time with Prometheus and Grafana for keeping an eye on performance metrics and take immediate action </div>
                     </div>
                 </div>
-                <div className='tablebg' >
-                    <div className='bold'>Find all the applications and servers here</div>
+                <div className={styles.tablebg} >
+                    <div className={styles.bold}>Find all the applications and servers here</div>
                     <div>
                         <table>
                             <thead>

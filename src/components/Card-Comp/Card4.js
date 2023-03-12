@@ -4,7 +4,7 @@ import {Line} from "react-chartjs-2"
 import 'chart.js/auto';
 const Card4 = () => {
   return (
-    <div className='Container'>
+    <div className='Container2'>
         <Line 
         data={
           {

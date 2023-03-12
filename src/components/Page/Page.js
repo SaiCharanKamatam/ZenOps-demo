@@ -2,17 +2,21 @@ import React from 'react'
 import CardComp from "../Card-Comp/CardComp"
 import Content from "../Content/Content.js"
 import Chart from "../Chart/Chart"
-import "./Page.css"
+import styles from  "./Page.module.css"
+import Header from "../Header/Header"
 const Page = () => {
   return (
-    <div className='PageContainer'>
-       <div className='upperContainer'>
+    <div>
+      <Header />
+      <div className={styles.PageContainer}>
+       <div className={styles.upperContainer}>
            <Content/>
            <Chart/>
        </div>
-       <div className='lowerContainer'>
+       <div className={styles.lowerContainer}>
             <CardComp/>
        </div>
+    </div>
     </div>
   )
 }

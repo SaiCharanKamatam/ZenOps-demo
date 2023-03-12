@@ -5,7 +5,7 @@ import 'chart.js/auto';
 
 const Card1 = () => {
   return (
-    <div className='Container'>
+    <div className='Container2'>
         <Bar 
         data={
           {

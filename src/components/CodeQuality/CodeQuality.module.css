@@ -52,7 +52,7 @@
     width: 78%;
     color: black;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 15px;
     font-family: 'Ubuntu', sans-serif;
 
@@ -149,4 +149,19 @@ button {
     margin-top: 3px;
     font-weight: 600;
     font-family: "Ubuntu";
+}
+
+.Enhance{
+    width: 300px;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.Enjoy{
+    width: 420px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+    color: black;
 }
