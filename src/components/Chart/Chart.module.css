@@ -1,0 +1,48 @@
+.ChartContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5px;
+    padding-top: 56px;
+}
+.ContainerLeft{
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 200px;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    padding-top: 20px;
+    padding-right: 22px;
+}
+.links > a {
+   margin-right: 17px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 400;
+   background-color: black;
+   color: white;
+   font-size: 0.8rem;
+   padding: 4px;
+   border-radius: 3px;
+   width: 80px;
+   text-align: center;
+   text-decoration: none;
+
+}
+
+.chart1{
+    width: 160px;
+    position: relative;
+}
+.a{
+    position: absolute;
+    top: 44px;
+    left: 50px;
+    color: rgb(161, 158, 158);
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}

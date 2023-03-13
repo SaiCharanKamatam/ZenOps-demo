@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+.HeaderContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #efefef;
+
+}
+
+.Headertitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    align-content: center;    
+}
+
+.NavLinks{
+    display: flex;
+    width: 45%;
+    align-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.NavLinks ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.NavLinks ul  li  {
+    list-style: none;
+}
+ 
+.links1 {
+    text-decoration:none;
+    color: black;
+}
+
+.active{
+    padding-bottom: 4px;
+    border-bottom: 1.9px solid #131415;
+    line-height: 6px;
+}
+
+

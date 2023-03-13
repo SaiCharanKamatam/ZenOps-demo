@@ -1,0 +1,28 @@
+.PageContainer{
+    /* border: 1px solid rgb(240, 224, 224); */
+    border-radius: 3px;
+    padding: 10px;
+    margin: 24px;
+    display: flex;
+    width: 93vw;
+    flex-direction: column;
+    background: url("bg7.png") no-repeat bottom;
+}
+.upperContainer{
+    display: flex;
+    height: 50%;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(233, 226, 226);
+    padding-bottom: 10px;
+}
+
+.EntireConatiner{
+    background-color: #efefef;
+}
+
+
+.lowerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
