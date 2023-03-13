@@ -103,12 +103,12 @@ button {
 .cardHolder {
     display: flex;
     width: 60%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
-.cardHolder>div {
-    width: 14%;
+.cardHolder div {
+    width: 75%;
     height: 100px;
     border-radius: 3px;
     margin: 16px 0;
@@ -124,7 +124,7 @@ button {
 
 }
 
-.cardHolder>div>a {
+.cardHolder a {
     height: 100px;
     border-radius: 3px;
     margin: 16px 0;
@@ -139,7 +139,7 @@ button {
     text-decoration: none;
 }
 
-.cardHolder>div>a>img {
+.cardHolder img {
     width: 45%;
     margin-bottom: 7px;
 }
