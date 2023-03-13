@@ -8,7 +8,9 @@ const CodeQuality = () => {
             <div className={styles.EntireContainer} >
                 <div className={styles.CodeContainer}>
                     <div className={styles.svgHolder}>
-                        <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' width={300} />
+                    <iframe src="./animation2.svg" width="450" height="450"  
+                      frameBorder="0"
+                    ></iframe>
                     </div>
                     <div className={styles.detailsHolder}>
                         <div className={styles.CodeEnhance} >Enhance Your Workflow with Continous Code Quality & Code Security </div>
@@ -73,7 +75,9 @@ const CodeQuality = () => {
                         <div className={styles.Enjoy} > Boot a fresh environment in milliseconds</div>
                     </div>
                     <div>
-                        <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' width={400} />
+                    <iframe src="./animation3.svg" width="400" height="400"  
+                      frameBorder="0"
+                    ></iframe>
                     </div>
                 </div>
                 <div className={styles.CodeStandards} >

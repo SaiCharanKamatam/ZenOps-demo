@@ -1,15 +1,20 @@
 import React from 'react'
 import styles from "./Zensight.module.css"
 import Header from '../Header/Header'
+import Page from '../Page/Page'
 
 const Zensight = () => {
     return (
         <div>
+            {true ?
+             <>
             <Header />
             <div className={styles.EntireContainer2} >
                 <div className={styles.CodeContainer2}>
                     <div className={styles.svgHolder2}>
-                        <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg' />
+                    <iframe src="./animation4.svg" width="450" height="450"  
+                      frameBorder="0"
+                    ></iframe>
                     </div>
                     <div className={styles.detailsHolder2}>
                         <div className={styles.monitoring} >Get Ahead With Automated Monitoring and Alerting</div>
@@ -93,6 +98,7 @@ const Zensight = () => {
                     </div>
                 </div>
             </div>
+            </>: <Page/>}
         </div>
     )
 }
