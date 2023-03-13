@@ -7,8 +7,7 @@ import Header from "../Header/Header"
 const Page = () => {
   return (
     <div className={styles.EntireConatiner} >
-      <Header
-      />
+      <Header/>
       <div className={styles.PageContainer}>
         <div className={styles.upperContainer}>
           <Content />
