@@ -103,12 +103,12 @@ button {
 .cardHolder {
     display: flex;
     width: 60%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .cardHolder div {
-    width: 75%;
+    width: 82%;
     height: 100px;
     border-radius: 3px;
     margin: 16px 0;

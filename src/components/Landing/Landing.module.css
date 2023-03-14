@@ -1,17 +1,14 @@
-.LandingContainer{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 85vh;
-   width: 100%;
-}
-.box1{
+.box1 {
     background: url("bg1.png") no-repeat center;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.Enhance{
+.Enhance {
     width: 300px;
     color: black;
     font-size: 1.4rem;
@@ -19,13 +16,29 @@
     margin-bottom: 15px;
     font-family: 'Ubuntu', sans-serif;
 }
-.Enjoy{
+
+.Enjoy {
     width: 420px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 0.9rem;
     color: black;
 }
 
-.LandingContainer > div{
-    margin-right: 25px;
+.LandingContainer {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+}
+.LandingContainer > swiper-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 85vh;
+
+}
+
+swiper-container > swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

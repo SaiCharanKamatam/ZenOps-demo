@@ -29,7 +29,7 @@ const CodeQuality = () => {
                         <div className={styles.bold} >Learn & Grow</div>
                     </div>
                     <div className={styles.cardHolder}>
-                        <swiper-container loop={true} slides-per-view="4" speed={500}
+                        <swiper-container loop={true} slides-per-view="6" speed={500}
                             scrollbar="true" autoplay="true"
                         >
                             <swiper-slide>
@@ -93,6 +93,22 @@ const CodeQuality = () => {
                                     <a href='a.txt' download={true}>
                                         <img src='./flutter.png' />
                                         <span>Flutter</span>
+                                    </a>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div>
+                                    <a href='a.txt' download={true}>
+                                        <img src='./node.png' />
+                                        <span>Node Js</span>
+                                    </a>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div>
+                                    <a href='a.txt' download={true}>
+                                        <img src='./angular.png' />
+                                        <span>Angular</span>
                                     </a>
                                 </div>
                             </swiper-slide>
@@ -118,7 +134,7 @@ const CodeQuality = () => {
                         <div className={styles.bold} >Learn & Grow</div>
                     </div>
                     <div className={styles.cardHolder}>
-                        <swiper-container loop={true} slides-per-view="4" speed={300}
+                    <swiper-container loop={true} slides-per-view="6" speed={500}
                             scrollbar="true" autoplay="true"
                         >
                             <swiper-slide>
@@ -185,9 +201,24 @@ const CodeQuality = () => {
                                     </a>
                                 </div>
                             </swiper-slide>
+                            <swiper-slide>
+                                <div>
+                                    <a href='a.txt' download={true}>
+                                        <img src='./node.png' />
+                                        <span>Node Js</span>
+                                    </a>
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div>
+                                    <a href='a.txt' download={true}>
+                                        <img src='./angular.png' />
+                                        <span>Angular</span>
+                                    </a>
+                                </div>
+                            </swiper-slide>
 
                         </swiper-container>
-
                     </div>
                 </div>
             </div>
