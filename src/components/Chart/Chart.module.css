@@ -8,7 +8,7 @@
 .ContainerLeft{
     display: flex;
     flex-direction: column;
-    width: 570px;
+    width: 540px;
     height: 200px;
 }
 .links{
@@ -16,33 +16,33 @@
     justify-content: flex-end;
     align-content: center;
     padding-top: 20px;
-    padding-right: 22px;
+    padding-right: 10px;
 }
 .links > a {
    margin-right: 17px;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-family: 'Ubuntu', sans-serif;
    font-weight: 400;
    background-color: black;
    color: white;
    font-size: 0.8rem;
    padding: 4px;
    border-radius: 3px;
-   width: 80px;
+   width: 70px;
    text-align: center;
    text-decoration: none;
 
 }
 
 .chart1{
-    width: 160px;
+    width: 150px;
     position: relative;
 }
 .a{
     position: absolute;
-    top: 44px;
+    top: 43px;
     left: 50px;
     color: rgb(161, 158, 158);
     font-size: 12px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }

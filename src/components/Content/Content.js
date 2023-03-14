@@ -9,13 +9,11 @@ const Content = () => {
       <div className={styles.bold}> SonarQube </div>
       <div className={styles.detailsContainer} >
         <div className={styles.details1}>
-          <span>Project Status</span>
           <span>Operating System</span>
           <span>Application</span>
           <span>Database</span>
         </div>
         <div className={styles.details2}>
-          <span>Ongoing</span>
           <span className={styles.flex_space}> <span>Ubuntu</span><span className={styles.bg_green}>Good</span></span>
           <span className={styles.flex_space}> <span >Health API</span> <span className={styles.bg_green} >Good</span></span>
           <span>Azure</span>

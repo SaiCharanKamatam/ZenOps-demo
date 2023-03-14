@@ -19,16 +19,17 @@
 
 .NavLinks{
     display: flex;
-    width: 45%;
+    width: 44%;
     align-content: center;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .NavLinks ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
+    font-size: 17px;
 }
 
 .NavLinks ul  li  {
